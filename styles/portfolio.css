@@ -38,6 +38,10 @@ hr {
   margin: 0 auto;
 }
 
+p {
+  line-height: 1.6;
+}
+
 footer {
   text-align: center;
   margin: 30px;
@@ -54,7 +58,7 @@ i {
 
 .hero {
   background-color: var(--hero-color);
-  padding: 60px;
+  padding: 60px 10px;
 }
 
 .hero p,
@@ -127,7 +131,7 @@ footer h2 {
   }
 
   .h1 {
-    font-size: 34px;
+    font-size: 32px;
   }
   .h2 {
     font-size: 28px;
