@@ -1,8 +1,25 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
 h1 {
   color: red;
-  font-family: "Fredericka the Great", cursive;
+  font-family: "Permanent Marker", cursive;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h3 {
+  font-family: "Permanent Marker", cursive;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 18px;
 }
 
 p {
-  font-family: "Open Sans", sans-serif;
 }
