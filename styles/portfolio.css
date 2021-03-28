@@ -8,16 +8,12 @@
 
 body {
   font-family: var(--default-font);
+  margin-bottom: 60px;
 }
 
 h1 {
   font-family: var(--heading-font);
   font-size: 48px;
-  color: white;
-}
-
-.nav-link {
-  color: var(--primary-color);
 }
 
 h2 {
@@ -52,13 +48,21 @@ i {
   font-size: 50px;
 }
 
+.nav-link {
+  color: var(--primary-color);
+}
+
 .hero {
   background-color: var(--hero-color);
-  padding: 60px 20px;
+  padding: 60px;
 }
 
 .hero p,
 .hero h3 {
+  color: white;
+}
+
+.hero h1 {
   color: white;
 }
 
@@ -81,12 +85,12 @@ i {
 }
 
 .btn-standard {
-  background: var(--primary-color);
-  color: white;
+  color: var(--hero-color);
+  border: 1px solid var(--hero-color);
 }
 
 .btn-standard:hover {
-  color: white;
+  color: var(--hero-color);
   opacity: 0.9;
 }
 
@@ -100,4 +104,32 @@ i {
 
 footer h2 {
   color: var(--primary-color);
+}
+
+.right {
+  text-align: right;
+}
+
+@media (max-width: 576px) {
+  .right {
+    text-align: left;
+  }
+
+  i {
+    font-size: 45px;
+  }
+
+  .hero {
+    padding: 20px 20px 40px;
+  }
+  .projects {
+    margin: 0px 20px;
+  }
+
+  .h1 {
+    font-size: 34px;
+  }
+  .h2 {
+    font-size: 28px;
+  }
 }
