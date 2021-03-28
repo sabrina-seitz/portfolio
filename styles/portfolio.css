@@ -112,11 +112,21 @@ footer h2 {
 
 .right {
   text-align: right;
+  padding-right: 25px;
 }
 
-@media (max-width: 576px) {
+.left {
+  padding-left: 25px;
+}
+
+@media (max-width: 768px) {
   .right {
     text-align: left;
+    padding: 0 12px;
+  }
+
+  .left {
+    padding: 0 12px;
   }
 
   i {
