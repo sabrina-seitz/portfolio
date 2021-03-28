@@ -8,13 +8,16 @@
 
 body {
   font-family: var(--default-font);
-  margin: 20px;
 }
 
 h1 {
   font-family: var(--heading-font);
   font-size: 48px;
   color: white;
+}
+
+.nav-link {
+  color: var(--primary-color);
 }
 
 h2 {
