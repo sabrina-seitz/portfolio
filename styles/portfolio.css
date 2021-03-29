@@ -142,11 +142,19 @@ footer h2 {
     padding: 0px 15px 20px 20px;
   }
 
-  .h1 {
+  h1 {
     font-size: 32px;
   }
 
-  .h2 {
+  h2 {
     font-size: 28px;
+  }
+
+  h3 {
+    font-size: 17px;
+  }
+
+  .social h3 {
+    font-size: 15px;
   }
 }
