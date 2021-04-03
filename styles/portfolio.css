@@ -50,6 +50,11 @@ footer {
 i {
   color: var(--hero-color);
   font-size: 50px;
+  transition: all 100ms ease-in-out;
+}
+
+i:hover {
+  color: var(--primary-color);
 }
 
 .nav-link {
