@@ -70,6 +70,15 @@ i {
   color: white;
 }
 
+.hero-short {
+  background-color: var(--hero-color);
+  padding: 60px 10px 40px;
+}
+
+.hero-short h1 {
+  color: white;
+}
+
 .btn {
   border-radius: 4px;
   font-size: 16px;
@@ -106,6 +115,17 @@ i {
   font-size: 18px;
 }
 
+.about-section {
+  margin: 0 50px;
+  align-items: center;
+}
+
+.about-text {
+  max-width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+
 footer h2 {
   color: var(--primary-color);
 }
@@ -138,6 +158,15 @@ footer h2 {
     margin: 0;
   }
 
+  .hero-short {
+    padding-top: 60px;
+    margin: 0;
+  }
+
+  .hero-short h1 {
+    text-align: center;
+  }
+
   .projects {
     padding: 0px 15px 20px 20px;
   }
@@ -156,5 +185,10 @@ footer h2 {
 
   .social h3 {
     font-size: 15px;
+  }
+
+  .about-text {
+    max-width: 100%;
+    padding: 0px 15px 20px 20px;
   }
 }
