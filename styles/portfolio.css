@@ -71,7 +71,7 @@ i {
 }
 
 .hero-short {
-  background-color: var(--hero-color);
+  background-color: var(--primary-color);
   padding: 60px 10px 40px;
 }
 
