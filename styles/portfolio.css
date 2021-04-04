@@ -47,6 +47,10 @@ footer {
   margin: 30px;
 }
 
+footer h2 {
+  color: var(--primary-color);
+}
+
 i {
   color: var(--hero-color);
   font-size: 50px;
@@ -124,6 +128,10 @@ i:hover {
   font-size: 18px;
 }
 
+.social-channel {
+  flex: 1;
+}
+
 .about-section {
   margin: 0 50px;
   align-items: center;
@@ -148,14 +156,6 @@ i:hover {
   background: var(--primary-color);
 }
 
-footer h2 {
-  color: var(--primary-color);
-}
-
-.footer-contact {
-  padding-top: 25px;
-}
-
 .right {
   text-align: right;
   padding-right: 25px;
@@ -163,6 +163,20 @@ footer h2 {
 
 .left {
   padding-left: 25px;
+}
+
+.footer-contact {
+  padding-top: 25px;
+}
+
+.link-footer {
+  color: var(--hero-color);
+  transition: all 100ms ease-in-out;
+}
+
+.link-footer:hover {
+  color: var(--primary-color);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {
